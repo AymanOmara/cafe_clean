@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{4E98E3D8-0ABA-45CD-89A8-CEF8BE53B054}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Cafe.Infrastructure/IOC.cs">
+    <Files>
+      <File FileName="Cafe.Api/Program.cs" Line="17" Column="11" />
+      <File FileName="Cafe.Api/appsettings.json" Line="1" Column="1" />
+      <File FileName="Cafe.Api/appsettings.Development.json" Line="2" Column="156" />
+      <File FileName="Cafe.Infrastructure/ReadDBContext.cs" Line="17" Column="179" />
+      <File FileName="Cafe.Infrastructure/IOC.cs" Line="10" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Cafe" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Cafe.Api PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+</Properties>

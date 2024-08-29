@@ -1,0 +1,15 @@
+/Users/aymanomara/new_cafe/Cafe/Cafe.Infrastructure/bin/Debug/net8.0/Cafe.Infrastructure.deps.json
+/Users/aymanomara/new_cafe/Cafe/Cafe.Infrastructure/bin/Debug/net8.0/Cafe.Infrastructure.dll
+/Users/aymanomara/new_cafe/Cafe/Cafe.Infrastructure/bin/Debug/net8.0/Cafe.Infrastructure.pdb
+/Users/aymanomara/new_cafe/Cafe/Cafe.Infrastructure/obj/Debug/net8.0/Cafe.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aymanomara/new_cafe/Cafe/Cafe.Infrastructure/obj/Debug/net8.0/Cafe.Infrastructure.AssemblyInfoInputs.cache
+/Users/aymanomara/new_cafe/Cafe/Cafe.Infrastructure/obj/Debug/net8.0/Cafe.Infrastructure.AssemblyInfo.cs
+/Users/aymanomara/new_cafe/Cafe/Cafe.Infrastructure/obj/Debug/net8.0/Cafe.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/aymanomara/new_cafe/Cafe/Cafe.Infrastructure/obj/Debug/net8.0/Cafe.Infrastructure.sourcelink.json
+/Users/aymanomara/new_cafe/Cafe/Cafe.Infrastructure/obj/Debug/net8.0/Cafe.Infrastructure.dll
+/Users/aymanomara/new_cafe/Cafe/Cafe.Infrastructure/obj/Debug/net8.0/refint/Cafe.Infrastructure.dll
+/Users/aymanomara/new_cafe/Cafe/Cafe.Infrastructure/obj/Debug/net8.0/Cafe.Infrastructure.pdb
+/Users/aymanomara/new_cafe/Cafe/Cafe.Infrastructure/obj/Debug/net8.0/ref/Cafe.Infrastructure.dll
+/Users/aymanomara/new_cafe/Cafe/Cafe.Infrastructure/bin/Debug/net8.0/Cafe.Infrastructure.runtimeconfig.json
+/Users/aymanomara/new_cafe/Cafe/Cafe.Infrastructure/obj/Debug/net8.0/Cafe.Infrastructure.genruntimeconfig.cache
+/Users/aymanomara/new_cafe/Cafe/Cafe.Infrastructure/obj/Debug/net8.0/Cafe.Infrastructure.csproj.AssemblyReference.cache

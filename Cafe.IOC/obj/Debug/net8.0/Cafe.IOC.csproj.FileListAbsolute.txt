@@ -1,0 +1,16 @@
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/bin/Debug/net8.0/Cafe.IOC.deps.json
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/bin/Debug/net8.0/Cafe.IOC.dll
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/bin/Debug/net8.0/Cafe.IOC.pdb
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/bin/Debug/net8.0/Cafe.Infrastructure.dll
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/bin/Debug/net8.0/Cafe.Infrastructure.pdb
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/obj/Debug/net8.0/Cafe.IOC.csproj.AssemblyReference.cache
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/obj/Debug/net8.0/Cafe.IOC.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/obj/Debug/net8.0/Cafe.IOC.AssemblyInfoInputs.cache
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/obj/Debug/net8.0/Cafe.IOC.AssemblyInfo.cs
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/obj/Debug/net8.0/Cafe.IOC.csproj.CoreCompileInputs.cache
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/obj/Debug/net8.0/Cafe.IOC.sourcelink.json
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/obj/Debug/net8.0/Cafe.IOC.csproj.Up2Date
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/obj/Debug/net8.0/Cafe.IOC.dll
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/obj/Debug/net8.0/refint/Cafe.IOC.dll
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/obj/Debug/net8.0/Cafe.IOC.pdb
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/obj/Debug/net8.0/ref/Cafe.IOC.dll
