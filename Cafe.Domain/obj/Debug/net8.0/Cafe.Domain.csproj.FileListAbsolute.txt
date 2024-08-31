@@ -1,0 +1,13 @@
+/Users/aymanomara/new_cafe/Cafe/Cafe.Domain/bin/Debug/net8.0/Cafe.Domain.deps.json
+/Users/aymanomara/new_cafe/Cafe/Cafe.Domain/bin/Debug/net8.0/Cafe.Domain.dll
+/Users/aymanomara/new_cafe/Cafe/Cafe.Domain/bin/Debug/net8.0/Cafe.Domain.pdb
+/Users/aymanomara/new_cafe/Cafe/Cafe.Domain/obj/Debug/net8.0/Cafe.Domain.csproj.AssemblyReference.cache
+/Users/aymanomara/new_cafe/Cafe/Cafe.Domain/obj/Debug/net8.0/Cafe.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aymanomara/new_cafe/Cafe/Cafe.Domain/obj/Debug/net8.0/Cafe.Domain.AssemblyInfoInputs.cache
+/Users/aymanomara/new_cafe/Cafe/Cafe.Domain/obj/Debug/net8.0/Cafe.Domain.AssemblyInfo.cs
+/Users/aymanomara/new_cafe/Cafe/Cafe.Domain/obj/Debug/net8.0/Cafe.Domain.csproj.CoreCompileInputs.cache
+/Users/aymanomara/new_cafe/Cafe/Cafe.Domain/obj/Debug/net8.0/Cafe.Domain.sourcelink.json
+/Users/aymanomara/new_cafe/Cafe/Cafe.Domain/obj/Debug/net8.0/Cafe.Domain.dll
+/Users/aymanomara/new_cafe/Cafe/Cafe.Domain/obj/Debug/net8.0/refint/Cafe.Domain.dll
+/Users/aymanomara/new_cafe/Cafe/Cafe.Domain/obj/Debug/net8.0/Cafe.Domain.pdb
+/Users/aymanomara/new_cafe/Cafe/Cafe.Domain/obj/Debug/net8.0/ref/Cafe.Domain.dll

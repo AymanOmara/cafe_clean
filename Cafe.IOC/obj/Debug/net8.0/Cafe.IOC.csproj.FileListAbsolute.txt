@@ -14,3 +14,13 @@
 /Users/aymanomara/new_cafe/Cafe/Cafe.IOC/obj/Debug/net8.0/refint/Cafe.IOC.dll
 /Users/aymanomara/new_cafe/Cafe/Cafe.IOC/obj/Debug/net8.0/Cafe.IOC.pdb
 /Users/aymanomara/new_cafe/Cafe/Cafe.IOC/obj/Debug/net8.0/ref/Cafe.IOC.dll
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/bin/Debug/net8.0/Cafe.Application.dll
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/bin/Debug/net8.0/Cafe.Contracts.dll
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/bin/Debug/net8.0/Cafe.Domain.dll
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/bin/Debug/net8.0/Cafe.Shared.dll
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/bin/Debug/net8.0/Cafe.Application.pdb
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/bin/Debug/net8.0/Cafe.Shared.pdb
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/bin/Debug/net8.0/Cafe.Contracts.pdb
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/bin/Debug/net8.0/Cafe.Domain.pdb
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/bin/Debug/net8.0/ar/Cafe.Shared.resources.dll
+/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/bin/Debug/net8.0/en/Cafe.Shared.resources.dll

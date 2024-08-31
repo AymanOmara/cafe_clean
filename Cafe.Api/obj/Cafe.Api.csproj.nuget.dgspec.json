@@ -26,6 +26,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "/Users/aymanomara/new_cafe/Cafe/Cafe.Application/Cafe.Application.csproj": {
+                "projectPath": "/Users/aymanomara/new_cafe/Cafe/Cafe.Application/Cafe.Application.csproj"
+              },
               "/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/Cafe.IOC.csproj": {
                 "projectPath": "/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/Cafe.IOC.csproj"
               }
@@ -36,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,6 +63,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.7.3, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             }
           },
           "imports": [
@@ -72,6 +84,209 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aymanomara/new_cafe/Cafe/Cafe.Application/Cafe.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aymanomara/new_cafe/Cafe/Cafe.Application/Cafe.Application.csproj",
+        "projectName": "Cafe.Application",
+        "projectPath": "/Users/aymanomara/new_cafe/Cafe/Cafe.Application/Cafe.Application.csproj",
+        "packagesPath": "/Users/aymanomara/.nuget/packages/",
+        "outputPath": "/Users/aymanomara/new_cafe/Cafe/Cafe.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aymanomara/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/aymanomara/new_cafe/Cafe/Cafe.Contracts/Cafe.Contracts.csproj": {
+                "projectPath": "/Users/aymanomara/new_cafe/Cafe/Cafe.Contracts/Cafe.Contracts.csproj"
+              },
+              "/Users/aymanomara/new_cafe/Cafe/Cafe.Infrastructure/Cafe.Infrastructure.csproj": {
+                "projectPath": "/Users/aymanomara/new_cafe/Cafe/Cafe.Infrastructure/Cafe.Infrastructure.csproj"
+              },
+              "/Users/aymanomara/new_cafe/Cafe/Cafe.Shared/Cafe.Shared.csproj": {
+                "projectPath": "/Users/aymanomara/new_cafe/Cafe/Cafe.Shared/Cafe.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aymanomara/new_cafe/Cafe/Cafe.Contracts/Cafe.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aymanomara/new_cafe/Cafe/Cafe.Contracts/Cafe.Contracts.csproj",
+        "projectName": "Cafe.Contracts",
+        "projectPath": "/Users/aymanomara/new_cafe/Cafe/Cafe.Contracts/Cafe.Contracts.csproj",
+        "packagesPath": "/Users/aymanomara/.nuget/packages/",
+        "outputPath": "/Users/aymanomara/new_cafe/Cafe/Cafe.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aymanomara/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/aymanomara/new_cafe/Cafe/Cafe.Domain/Cafe.Domain.csproj": {
+                "projectPath": "/Users/aymanomara/new_cafe/Cafe/Cafe.Domain/Cafe.Domain.csproj"
+              },
+              "/Users/aymanomara/new_cafe/Cafe/Cafe.Shared/Cafe.Shared.csproj": {
+                "projectPath": "/Users/aymanomara/new_cafe/Cafe/Cafe.Shared/Cafe.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aymanomara/new_cafe/Cafe/Cafe.Domain/Cafe.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aymanomara/new_cafe/Cafe/Cafe.Domain/Cafe.Domain.csproj",
+        "projectName": "Cafe.Domain",
+        "projectPath": "/Users/aymanomara/new_cafe/Cafe/Cafe.Domain/Cafe.Domain.csproj",
+        "packagesPath": "/Users/aymanomara/.nuget/packages/",
+        "outputPath": "/Users/aymanomara/new_cafe/Cafe/Cafe.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aymanomara/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -101,19 +316,43 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/aymanomara/new_cafe/Cafe/Cafe.Contracts/Cafe.Contracts.csproj": {
+                "projectPath": "/Users/aymanomara/new_cafe/Cafe/Cafe.Contracts/Cafe.Contracts.csproj"
+              },
+              "/Users/aymanomara/new_cafe/Cafe/Cafe.Domain/Cafe.Domain.csproj": {
+                "projectPath": "/Users/aymanomara/new_cafe/Cafe/Cafe.Domain/Cafe.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"
@@ -127,6 +366,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -171,8 +414,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "/Users/aymanomara/new_cafe/Cafe/Cafe.Application/Cafe.Application.csproj": {
+                "projectPath": "/Users/aymanomara/new_cafe/Cafe/Cafe.Application/Cafe.Application.csproj"
+              },
               "/Users/aymanomara/new_cafe/Cafe/Cafe.Infrastructure/Cafe.Infrastructure.csproj": {
                 "projectPath": "/Users/aymanomara/new_cafe/Cafe/Cafe.Infrastructure/Cafe.Infrastructure.csproj"
+              },
+              "/Users/aymanomara/new_cafe/Cafe/Cafe.Shared/Cafe.Shared.csproj": {
+                "projectPath": "/Users/aymanomara/new_cafe/Cafe/Cafe.Shared/Cafe.Shared.csproj"
               }
             }
           }
@@ -181,11 +430,84 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aymanomara/new_cafe/Cafe/Cafe.Shared/Cafe.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aymanomara/new_cafe/Cafe/Cafe.Shared/Cafe.Shared.csproj",
+        "projectName": "Cafe.Shared",
+        "projectPath": "/Users/aymanomara/new_cafe/Cafe/Cafe.Shared/Cafe.Shared.csproj",
+        "packagesPath": "/Users/aymanomara/.nuget/packages/",
+        "outputPath": "/Users/aymanomara/new_cafe/Cafe/Cafe.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aymanomara/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Localization": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Localization": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

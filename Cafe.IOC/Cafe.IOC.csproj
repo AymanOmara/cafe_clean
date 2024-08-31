@@ -8,5 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Cafe.Infrastructure\Cafe.Infrastructure.csproj" />
+    <ProjectReference Include="..\Cafe.Application\Cafe.Application.csproj" />
+    <ProjectReference Include="..\Cafe.Shared\Cafe.Shared.csproj" />
   </ItemGroup>
 </Project>

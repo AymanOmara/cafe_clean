@@ -6,4 +6,30 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Services\" />
+    <None Remove="Services\Authentication\" />
+    <None Remove="Services\Authentication\Response\" />
+    <None Remove="Core\" />
+    <None Remove="Services\Authentication\Query\" />
+    <None Remove="Services\Authentication\Commands\" />
+    <None Remove="Services\Authentication\Commands\Login\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Services\Authentication\" />
+    <Folder Include="Services\Authentication\Response\" />
+    <Folder Include="Core\" />
+    <Folder Include="Services\Authentication\Query\" />
+    <Folder Include="Services\Authentication\Commands\" />
+    <Folder Include="Services\Authentication\Commands\Login\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cafe.Infrastructure\Cafe.Infrastructure.csproj" />
+    <ProjectReference Include="..\Cafe.Shared\Cafe.Shared.csproj" />
+    <ProjectReference Include="..\Cafe.Contracts\Cafe.Contracts.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+  </ItemGroup>
 </Project>

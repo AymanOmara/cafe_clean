@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Cafe.Infrastructure.Migrations
 {
-    [DbContext(typeof(ReadDBContext))]
+    [DbContext(typeof(RawaanDBContext))]
     [Migration("20240829164647_InitialCreate")]
     partial class InitialCreate
     {

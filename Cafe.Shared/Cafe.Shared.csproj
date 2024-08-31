@@ -6,4 +6,36 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Models\" />
+    <None Remove="Localization\" />
+    <None Remove="Localization\Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Localization\Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Localization" Version="8.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Localization" Version="2.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Localization\Resources\SharedResource.ar.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SharedResource.ar.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Resources\SharedResource.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SharedResource.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Localization\Resources\SharedResource.ar.Designer.cs">
+      <DependentUpon>SharedResource.ar.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Localization\Resources\SharedResource.en.Designer.cs">
+      <DependentUpon>SharedResource.en.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>

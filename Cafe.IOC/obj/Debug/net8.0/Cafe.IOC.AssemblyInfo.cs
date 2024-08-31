@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cafe.IOC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d1128bf61047dd9aef5ff37dc626b56b85c1874")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e72067304a7a629c6984f1fbd188f8cde7600e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cafe.IOC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cafe.IOC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
