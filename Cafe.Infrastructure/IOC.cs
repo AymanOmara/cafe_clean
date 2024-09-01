@@ -25,6 +25,7 @@ namespace Cafe.Infrastructure
             services.AddDbContext<RawaanDBContext>(options =>
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"))
             );
+            services.AddScoped<IDataBaseSeeder, DataBaseSeeder>();
 
             services.SetUpIdentity();
         }

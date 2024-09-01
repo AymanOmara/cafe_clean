@@ -1,4 +1,5 @@
 using Cafe.Api.Utils;
+using Cafe.Contracts.Core;
 using Cafe.IOC;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
@@ -25,7 +26,12 @@ builder.Services
     .AddControllers();
 builder.Services.SetUpLocalization();
 var app = builder.Build();
-
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var dataBaseSeeder = services.GetRequiredService<IDataBaseSeeder>();
+    await dataBaseSeeder.Seed();
+}
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

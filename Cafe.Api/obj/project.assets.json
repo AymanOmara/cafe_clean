@@ -5752,6 +5752,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Cafe.Application >= 1.0.0",
+      "Cafe.Contracts >= 1.0.0",
       "Cafe.IOC >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.8",
@@ -5787,6 +5788,9 @@
             "/Users/aymanomara/new_cafe/Cafe/Cafe.Application/Cafe.Application.csproj": {
               "projectPath": "/Users/aymanomara/new_cafe/Cafe/Cafe.Application/Cafe.Application.csproj"
             },
+            "/Users/aymanomara/new_cafe/Cafe/Cafe.Contracts/Cafe.Contracts.csproj": {
+              "projectPath": "/Users/aymanomara/new_cafe/Cafe/Cafe.Contracts/Cafe.Contracts.csproj"
+            },
             "/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/Cafe.IOC.csproj": {
               "projectPath": "/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/Cafe.IOC.csproj"
             }
@@ -5797,11 +5801,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {

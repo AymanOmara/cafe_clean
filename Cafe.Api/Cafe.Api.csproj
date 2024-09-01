@@ -22,9 +22,18 @@
   <ItemGroup>
     <ProjectReference Include="..\Cafe.IOC\Cafe.IOC.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+      <Targets></Targets>
+      <OutputItemType></OutputItemType>
+      <ReferenceSourceTarget>ProjectReference</ReferenceSourceTarget>
     </ProjectReference>
     <ProjectReference Include="..\Cafe.Application\Cafe.Application.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+      <Targets></Targets>
+      <OutputItemType></OutputItemType>
+      <ReferenceSourceTarget>ProjectReference</ReferenceSourceTarget>
+    </ProjectReference>
+    <ProjectReference Include="..\Cafe.Contracts\Cafe.Contracts.csproj">
+      <ReferenceSourceTarget>ProjectReference</ReferenceSourceTarget>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

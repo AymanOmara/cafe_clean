@@ -9,6 +9,7 @@
       "Cafe.Api/1.0.0": {
         "dependencies": {
           "Cafe.Application": "1.0.0",
+          "Cafe.Contracts": "1.0.0",
           "Cafe.IOC": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "8.0.8",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.8",
