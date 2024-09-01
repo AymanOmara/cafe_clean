@@ -14,6 +14,10 @@
     <None Remove="Services\Authentication\Query\" />
     <None Remove="Services\Authentication\Commands\" />
     <None Remove="Services\Authentication\Commands\Login\" />
+    <None Remove="Services\Authentication\Commands\RefreshToken\" />
+    <None Remove="Services\Authentication\Commands\CreateUser\" />
+    <None Remove="Services\Authentication\Commands\DeleteUser\" />
+    <None Remove="Services\Authentication\Commands\ChangePassword\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\" />
@@ -23,6 +27,10 @@
     <Folder Include="Services\Authentication\Query\" />
     <Folder Include="Services\Authentication\Commands\" />
     <Folder Include="Services\Authentication\Commands\Login\" />
+    <Folder Include="Services\Authentication\Commands\RefreshToken\" />
+    <Folder Include="Services\Authentication\Commands\CreateUser\" />
+    <Folder Include="Services\Authentication\Commands\DeleteUser\" />
+    <Folder Include="Services\Authentication\Commands\ChangePassword\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Cafe.Infrastructure\Cafe.Infrastructure.csproj" />

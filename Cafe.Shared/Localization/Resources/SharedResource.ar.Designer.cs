@@ -58,11 +58,29 @@ namespace Cafe.Shared.Localization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to كلمة المرور الحالية غير صحيحة..
+        /// </summary>
+        internal static string current_password_incorrect {
+            get {
+                return ResourceManager.GetString("current_password_incorrect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to خطا.
         /// </summary>
         internal static string error {
             get {
                 return ResourceManager.GetString("error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to رقم الدور غير صالح..
+        /// </summary>
+        internal static string invalid_role_number {
+            get {
+                return ResourceManager.GetString("invalid_role_number", resourceCulture);
             }
         }
         
@@ -76,11 +94,29 @@ namespace Cafe.Shared.Localization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Login is required..
+        /// </summary>
+        internal static string login_required {
+            get {
+                return ResourceManager.GetString("login_required", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to تم تسجيل الدخول بنجاح.
         /// </summary>
         internal static string login_successfully {
             get {
                 return ResourceManager.GetString("login_successfully", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to تم تغيير كلمة المرور بنجاح..
+        /// </summary>
+        internal static string password_changed_successfully {
+            get {
+                return ResourceManager.GetString("password_changed_successfully", resourceCulture);
             }
         }
         
@@ -94,11 +130,74 @@ namespace Cafe.Shared.Localization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to كلمة المرور ضعيفة جدًا. يجب أن تتكون من أربعة عناصر على الأقل سواء كانت أحرف أو أرقام..
+        /// </summary>
+        internal static string poor_password {
+            get {
+                return ResourceManager.GetString("poor_password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to مطلوب رمز تحديث التوكن..
+        /// </summary>
+        internal static string refresh_token_required {
+            get {
+                return ResourceManager.GetString("refresh_token_required", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to نجاح.
         /// </summary>
         internal static string success {
             get {
                 return ResourceManager.GetString("success", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to تم تحديث التوكن بنجاح..
+        /// </summary>
+        internal static string token_refreshed_successfully {
+            get {
+                return ResourceManager.GetString("token_refreshed_successfully", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to مطلوب رمز التوكن..
+        /// </summary>
+        internal static string token_required {
+            get {
+                return ResourceManager.GetString("token_required", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to تم إنشاء المستخدم بنجاح.
+        /// </summary>
+        internal static string user_created_successfully {
+            get {
+                return ResourceManager.GetString("user_created_successfully", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to تم حذف المستخدم بنجاح..
+        /// </summary>
+        internal static string user_deleted {
+            get {
+                return ResourceManager.GetString("user_deleted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to المستخدم غير موجود..
+        /// </summary>
+        internal static string user_not_found {
+            get {
+                return ResourceManager.GetString("user_not_found", resourceCulture);
             }
         }
         

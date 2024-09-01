@@ -1,23 +1,54 @@
 ﻿<Properties StartupConfiguration="{4E98E3D8-0ABA-45CD-89A8-CEF8BE53B054}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/aymanomara/new_cafe/Cafe/Cafe.Shared/Localization/Resources/SharedResource.en.resx" relfile="Cafe.Shared/Localization/Resources/SharedResource.en.resx" line="21" column="1" />
-      <Breakpoint file="/Users/aymanomara/new_cafe/Cafe/Cafe.Shared/Localization/Resources/SharedResource.en.resx" relfile="Cafe.Shared/Localization/Resources/SharedResource.en.resx" line="22" column="1" />
-      <Breakpoint file="/Users/aymanomara/new_cafe/Cafe/Cafe.Shared/Localization/Resources/SharedResource.en.resx" relfile="Cafe.Shared/Localization/Resources/SharedResource.en.resx" line="23" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Cafe.Api PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Cafe.Domain/Features/User/CafeRoles.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Cafe.Api/Controllers/AuthenticationController.cs">
     <Files>
-      <File FileName="Cafe.Domain/Features/User/CafeRoles.cs" Line="9" Column="2" />
+      <File FileName="Cafe.Application/Services/Authentication/Commands/CreateUser/CreateUserCommand.cs" Line="6" Column="52" />
+      <File FileName="Cafe.Application/Core/BaseResponse.cs" />
+      <File FileName="Cafe.Contracts/Core/IUnitOfWorkRepository.cs" />
+      <File FileName="Cafe.Contracts/Features/Authentication/IAuthenticationRepository.cs" Line="7" Column="22" />
+      <File FileName="Cafe.Infrastructure/Repositories/AuthenticationRepository.cs" Line="49" Column="15" />
+      <File FileName="Cafe.Api/Controllers/AuthenticationController.cs" Line="64" Column="1" />
+      <File FileName="Cafe.Contracts/Features/Authentication/LoginRequest.cs" Line="7" Column="2" />
+      <File FileName="Cafe.Application/Services/Authentication/Commands/DeleteUser/DeleteUserCommandHandler.cs" Line="22" Column="1" />
+      <File FileName="Cafe.Application/Services/Authentication/Commands/ChangePassword/ChangePasswordCommand.cs" Line="6" Column="96" />
+      <File FileName="Cafe.Application/Services/Authentication/Commands/ChangePassword/ChangePasswordCommandHandler.cs" Line="33" Column="16" />
+      <File FileName="Cafe.Shared/Localization/Resources/SharedResource.en.resx" Line="64" Column="3" />
+      <File FileName="Cafe.Shared/Localization/Resources/SharedResource.ar.resx" Line="6" Column="26" />
+      <File FileName="Cafe.Application/Services/Authentication/Query/ChangePasswordRequest.cs" Line="4" Column="83" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__" />
+        <State name="__root__">
+          <Node name="Cafe" expanded="True">
+            <Node name="Cafe.Api">
+              <Node name="Controllers" expanded="True">
+                <Node name="AuthenticationController.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="Cafe.Application">
+              <Node name="Services" expanded="True">
+                <Node name="Authentication" expanded="True">
+                  <Node name="Commands" expanded="True">
+                    <Node name="ChangePassword" expanded="True" />
+                    <Node name="CreateUser" expanded="True" />
+                    <Node name="DeleteUser" expanded="True" />
+                    <Node name="Login" expanded="True" />
+                  </Node>
+                  <Node name="Query" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/aymanomara/new_cafe/Cafe/Cafe.Api/Controllers/AuthenticationController.cs" relfile="Cafe.Api/Controllers/AuthenticationController.cs" line="64" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Cafe.Api PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

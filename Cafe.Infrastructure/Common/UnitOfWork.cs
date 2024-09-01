@@ -43,7 +43,7 @@ namespace Cafe.Infrastructure.Common
 
         private void InitRepositories()
         {
-            Authentication = new AuthenticationRepository(_context, _jwtGenerator, _userManager, _languageService);
+            Authentication = new AuthenticationRepository(_jwtGenerator, _userManager, _context);
         }
     }
 }

@@ -15,7 +15,7 @@ namespace Cafe.Infrastructure
 {
     public static class IOC
     {
-        public static void RegisterInfrastructure(this IServiceCollection services, IConfiguration configuration)
+        public static async Task RegisterInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.Configure<JWTSettings>(configuration.GetSection(JWTSettings.SectionName));
@@ -28,6 +28,9 @@ namespace Cafe.Infrastructure
             services.AddScoped<IDataBaseSeeder, DataBaseSeeder>();
 
             services.SetUpIdentity();
+            var serviceProvider = services.BuildServiceProvider();
+            var dbSeeder = serviceProvider.GetService<IDataBaseSeeder>();
+            await dbSeeder.Seed();
         }
 
         private static void SetUpIdentity(this IServiceCollection services)

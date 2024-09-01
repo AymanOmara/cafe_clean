@@ -32,9 +32,6 @@
       <OutputItemType></OutputItemType>
       <ReferenceSourceTarget>ProjectReference</ReferenceSourceTarget>
     </ProjectReference>
-    <ProjectReference Include="..\Cafe.Contracts\Cafe.Contracts.csproj">
-      <ReferenceSourceTarget>ProjectReference</ReferenceSourceTarget>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Remove="Controllers\" />
