@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Ah7VHTK1SuTOlLE+Jq1Ely88P+g/S/5jvj06gCQOjykW7kqRPeuupv+5uVES4Hx77f+46jZbX2GACpY3LYKKaw==",
+  "dgSpecHash": "rMLVXlAcpWgOD2qkrmNb6Q+/mH8vezAOwPp7MkNcz4h/l8XcMDEamDG0deB+6sRX+P7YAHmGtZtLfECM1YR8Nw==",
   "success": true,
   "projectFilePath": "/Users/aymanomara/new_cafe/Cafe/Cafe.IOC/Cafe.IOC.csproj",
   "expectedPackageFiles": [
     "/Users/aymanomara/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/aymanomara/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
+    "/Users/aymanomara/.nuget/packages/fluentvalidation/11.10.0/fluentvalidation.11.10.0.nupkg.sha512",
+    "/Users/aymanomara/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/Users/aymanomara/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.1/fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "/Users/aymanomara/.nuget/packages/mediatr/11.0.0/mediatr.11.0.0.nupkg.sha512",
     "/Users/aymanomara/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
     "/Users/aymanomara/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",

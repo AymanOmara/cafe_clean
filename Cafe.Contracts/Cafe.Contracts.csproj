@@ -10,11 +10,15 @@
     <None Remove="Features\" />
     <None Remove="Features\Authentication\" />
     <None Remove="Core\" />
+    <None Remove="Features\Employee\" />
+    <None Remove="Features\Employee\Requests\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Features\" />
     <Folder Include="Features\Authentication\" />
     <Folder Include="Core\" />
+    <Folder Include="Features\Employee\" />
+    <Folder Include="Features\Employee\Requests\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Cafe.Domain\Cafe.Domain.csproj" />

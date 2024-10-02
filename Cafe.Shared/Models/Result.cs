@@ -1,6 +1,6 @@
 ﻿namespace Cafe.Shared.Models
 {
-    public readonly struct Result<T, E>
+    public class Result<T, E>
     {
         private readonly bool _success;
         public readonly T Value;

@@ -21,32 +21,32 @@ namespace Cafe.Application.Services.Authentication.Commands.CreateUser
 
         public async Task<BaseResponse<bool>> Handle(CreateUserCommand request, CancellationToken cancellationToken)
         {
-            if (string.IsNullOrWhiteSpace(request.UserName))
-            {
-                return new BaseResponse<bool>
-                {
-                    StatusCode = 400,
-                    Message = _localization.GetKey("username_required").Value
-                };
-            };
+            //if (string.IsNullOrWhiteSpace(request.UserName))
+            //{
+            //    return new BaseResponse<bool>
+            //    {
+            //        StatusCode = 400,
+            //        Message = _localization.GetKey("username_required").Value
+            //    };
+            //};
 
-            if (string.IsNullOrWhiteSpace(request.Password))
-            {
-                return new BaseResponse<bool>
-                {
-                    StatusCode = 400,
-                    Message = _localization.GetKey("password_required").Value
-                };
-            };
+            //if (string.IsNullOrWhiteSpace(request.Password))
+            //{
+            //    return new BaseResponse<bool>
+            //    {
+            //        StatusCode = 400,
+            //        Message = _localization.GetKey("password_required").Value
+            //    };
+            //};
 
-            if (request.Password.Length < 4)
-            {
-                return new BaseResponse<bool>
-                {
-                    StatusCode = 400,
-                    Message = _localization.GetKey("poor_password").Value
-                };
-            };
+            //if (request.Password.Length < 4)
+            //{
+            //    return new BaseResponse<bool>
+            //    {
+            //        StatusCode = 400,
+            //        Message = _localization.GetKey("poor_password").Value
+            //    };
+            //};
             if (!Enum.IsDefined(typeof(CafeRoles), request.Role))
             {
                 return new BaseResponse<bool>

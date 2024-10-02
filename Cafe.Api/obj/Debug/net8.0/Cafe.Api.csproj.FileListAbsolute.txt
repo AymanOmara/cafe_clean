@@ -167,3 +167,6 @@
 /Users/aymanomara/new_cafe/Cafe/Cafe.Api/bin/Debug/net8.0/MediatR.dll
 /Users/aymanomara/new_cafe/Cafe/Cafe.Api/bin/Debug/net8.0/MediatR.Contracts.dll
 /Users/aymanomara/new_cafe/Cafe/Cafe.Api/bin/Debug/net8.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
+/Users/aymanomara/new_cafe/Cafe/Cafe.Api/bin/Debug/net8.0/FluentValidation.dll
+/Users/aymanomara/new_cafe/Cafe/Cafe.Api/bin/Debug/net8.0/FluentValidation.AspNetCore.dll
+/Users/aymanomara/new_cafe/Cafe/Cafe.Api/bin/Debug/net8.0/FluentValidation.DependencyInjectionExtensions.dll

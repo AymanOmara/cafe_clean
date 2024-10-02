@@ -1,5 +1,6 @@
 ﻿using Cafe.Contracts.Core;
 using Cafe.Contracts.Features.Authentication;
+using Cafe.Contracts.Features.Employee;
 using Cafe.Domain.Features.User;
 using Cafe.Infrastructure.Common.Authentication;
 using Cafe.Infrastructure.Repositories;
@@ -11,11 +12,16 @@ namespace Cafe.Infrastructure.Common
     public class UnitOfWork : IUnitOfWork
     {
         private readonly RawaanDBContext _context;
+
         private readonly IJWTGenerator _jwtGenerator;
+
         private readonly UserManager<RawaanUser> _userManager;
+
         private readonly LanguageService _languageService;
 
         public IAuthenticationRepository Authentication { get; private set; }
+
+        public IEmployeeRepository Employees { get; private set; }
 
         public UnitOfWork(
             RawaanDBContext context,
@@ -44,6 +50,8 @@ namespace Cafe.Infrastructure.Common
         private void InitRepositories()
         {
             Authentication = new AuthenticationRepository(_jwtGenerator, _userManager, _context);
+
+            Employees = new EmployeeRepository(_context);
         }
     }
 }

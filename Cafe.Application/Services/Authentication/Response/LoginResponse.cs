@@ -4,6 +4,4 @@
         string Token,
         string RefreshToken
         );
-
 }
-

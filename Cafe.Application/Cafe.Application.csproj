@@ -18,6 +18,18 @@
     <None Remove="Services\Authentication\Commands\CreateUser\" />
     <None Remove="Services\Authentication\Commands\DeleteUser\" />
     <None Remove="Services\Authentication\Commands\ChangePassword\" />
+    <None Remove="Core\Behavior\" />
+    <None Remove="Services\Friend\Commands\" />
+    <None Remove="Services\Friend\Query\" />
+    <None Remove="Services\Friend\Response\" />
+    <None Remove="Services\Friend\Query\Freinds\" />
+    <None Remove="Services\Employees\" />
+    <None Remove="Services\Employees\Commands\" />
+    <None Remove="Services\Employees\Query\" />
+    <None Remove="Services\Employees\Query\Employees\" />
+    <None Remove="Services\Employees\Commands\DeleteEmployee\" />
+    <None Remove="Services\Employees\Commands\CreateEmployee\" />
+    <None Remove="Services\Employees\Commands\UpdateEmployee\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\" />
@@ -31,6 +43,14 @@
     <Folder Include="Services\Authentication\Commands\CreateUser\" />
     <Folder Include="Services\Authentication\Commands\DeleteUser\" />
     <Folder Include="Services\Authentication\Commands\ChangePassword\" />
+    <Folder Include="Core\Behavior\" />
+    <Folder Include="Services\Employees\" />
+    <Folder Include="Services\Employees\Commands\" />
+    <Folder Include="Services\Employees\Query\" />
+    <Folder Include="Services\Employees\Query\Employees\" />
+    <Folder Include="Services\Employees\Commands\DeleteEmployee\" />
+    <Folder Include="Services\Employees\Commands\CreateEmployee\" />
+    <Folder Include="Services\Employees\Commands\UpdateEmployee\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Cafe.Infrastructure\Cafe.Infrastructure.csproj" />
@@ -38,6 +58,8 @@
     <ProjectReference Include="..\Cafe.Contracts\Cafe.Contracts.csproj" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.10.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
   </ItemGroup>
 </Project>

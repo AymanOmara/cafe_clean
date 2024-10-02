@@ -1,20 +1,58 @@
 ﻿<Properties StartupConfiguration="{4E98E3D8-0ABA-45CD-89A8-CEF8BE53B054}|https">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Cafe.Api/Controllers/AuthenticationController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Cafe.Api PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Cafe.Api/Controllers/EmployeesController.cs">
     <Files>
-      <File FileName="Cafe.Application/Services/Authentication/Commands/CreateUser/CreateUserCommand.cs" Line="6" Column="52" />
+      <File FileName="Cafe.Application/Services/Authentication/Commands/ChangePassword/ChangePasswordCommand.cs" />
+      <File FileName="Cafe.Api/Controllers/AuthenticationController.cs" />
+      <File FileName="Cafe.Application/Services/Authentication/Commands/ChangePassword/ChangePasswordRequest.cs" />
+      <File FileName="Cafe.Application/Services/Employees/Query/Employees/EmployeesQueryHandler.cs" Line="9" Column="57" />
+      <File FileName="Cafe.Application/Services/Authentication/Commands/ChangePassword/ChangePasswordCommandHandler.cs" />
       <File FileName="Cafe.Application/Core/BaseResponse.cs" />
-      <File FileName="Cafe.Contracts/Core/IUnitOfWorkRepository.cs" />
-      <File FileName="Cafe.Contracts/Features/Authentication/IAuthenticationRepository.cs" Line="7" Column="22" />
-      <File FileName="Cafe.Infrastructure/Repositories/AuthenticationRepository.cs" Line="49" Column="15" />
-      <File FileName="Cafe.Api/Controllers/AuthenticationController.cs" Line="64" Column="1" />
+      <File FileName="Cafe.Shared/Models/Result.cs" />
+      <File FileName="Cafe.Infrastructure/Common/DataBaseSeeder.cs" />
+      <File FileName="Cafe.Api/Utils/CreateMigrationCommand.cs" />
+      <File FileName="Cafe.Api/Program.cs" />
+      <File FileName="Cafe.Infrastructure/Migrations/20240831164930_CreateRawaanUser.Designer.cs" />
+      <File FileName="Cafe.Infrastructure/Migrations/20240831164930_CreateRawaanUser.cs" />
+      <File FileName="Cafe.Infrastructure/Migrations/20240829164647_InitialCreate.Designer.cs" />
+      <File FileName="Cafe.Infrastructure/Migrations/20240829164647_InitialCreate.cs" />
+      <File FileName="Cafe.Infrastructure/Migrations/20240917063836_EmployeeInit.cs" />
+      <File FileName="Cafe.Infrastructure/Common/UnitOfWork.cs" />
+      <File FileName="Cafe.Infrastructure/Configuration/RawaanDBContext.cs" Line="27" Column="1" />
+      <File FileName="Cafe.Infrastructure/Configuration/EntityTypeConfiguration/EmployeesEntityConfiguration.cs" Line="27" Column="21" />
+      <File FileName="Cafe.Domain/Features/Employees/EmployeeEntity.cs" Line="6" Column="14" />
+      <File FileName="Cafe.Api/appsettings.Development.json" />
+      <File FileName="Cafe.Api/Properties/launchSettings.json" />
+      <File FileName="Cafe.Api/appsettings.json" />
+      <File FileName="Cafe.Api/Controllers/EmployeesController.cs" Line="31" Column="10" />
+      <File FileName="../../.microsoft/usersecrets/8792503e-b60f-4548-9138-644993d446b7/secrets.json" />
+      <File FileName="Cafe.Api/Utils/ToResponseResult.cs" />
+      <File FileName="Cafe.Application/Services/Employees/Query/Employees/EmployeesQuery.cs" Line="1" Column="1" />
+      <File FileName="Cafe.Application/Core/IOC.cs" />
+      <File FileName="Cafe.Application/Services/Authentication/Commands/CreateUser/CreateUserCommand.cs" />
+      <File FileName="Cafe.Application/Services/Authentication/Commands/CreateUser/CreateUserCommandHandler.cs" Line="1" Column="1" />
+      <File FileName="Cafe.Application/Core/Behavior/ValidationBehavior.cs" Line="9" Column="42" />
+      <File FileName="Cafe.Application/Services/Authentication/Response/LoginResponse.cs" Line="1" Column="1" />
+      <File FileName="Cafe.Application/Services/Employees/Commands/DeleteEmployee/DeleteEmployeeCommand.cs" Line="6" Column="80" />
+      <File FileName="Cafe.Application/Services/Employees/Commands/CreateEmployee/CreateEmployeeCommand.cs" Line="7" Column="1" />
+      <File FileName="Cafe.Application/Services/Employees/Commands/CreateEmployee/CreateEmployeeCommandHandler.cs" Line="9" Column="6" />
+      <File FileName="Cafe.Contracts/Core/IUnitOfWorkRepository.cs" Line="10" Column="27" />
+      <File FileName="Cafe.Contracts/Features/Employee/IEmployeeRepository.cs" Line="12" Column="2" />
       <File FileName="Cafe.Contracts/Features/Authentication/LoginRequest.cs" Line="7" Column="2" />
-      <File FileName="Cafe.Application/Services/Authentication/Commands/DeleteUser/DeleteUserCommandHandler.cs" Line="22" Column="1" />
-      <File FileName="Cafe.Application/Services/Authentication/Commands/ChangePassword/ChangePasswordCommand.cs" Line="6" Column="96" />
-      <File FileName="Cafe.Application/Services/Authentication/Commands/ChangePassword/ChangePasswordCommandHandler.cs" Line="33" Column="16" />
-      <File FileName="Cafe.Shared/Localization/Resources/SharedResource.en.resx" Line="64" Column="3" />
-      <File FileName="Cafe.Shared/Localization/Resources/SharedResource.ar.resx" Line="6" Column="26" />
-      <File FileName="Cafe.Application/Services/Authentication/Query/ChangePasswordRequest.cs" Line="4" Column="83" />
+      <File FileName="Cafe.Application/Services/Employees/Commands/CreateEmployee/EmployeeMappers.cs" Line="11" Column="15" />
+      <File FileName="Cafe.Infrastructure/Repositories/EmployeeRepository.cs" Line="27" Column="10" />
+      <File FileName="Cafe.Infrastructure/Migrations/20241001065127_AddEmployeeEntitySequence.Designer.cs" Line="1" Column="1" />
+      <File FileName="Cafe.Infrastructure/Migrations/20241001070854_AddEmployeeEntitySequence.Designer.cs" Line="1" Column="1" />
+      <File FileName="Cafe.Infrastructure/Migrations/ReadDBContextModelSnapshot.cs" Line="35" Column="27" />
+      <File FileName="Cafe.Infrastructure/Migrations/20241001072957_AddEmployeeEntitySequence.cs" Line="181" Column="8" />
+      <File FileName="Cafe.Infrastructure/Migrations/20241001072957_AddEmployeeEntitySequence.Designer.cs" Line="1" Column="1" />
+      <File FileName="Cafe.Infrastructure/Migrations/20240917071116_EmployeeSeedData.Designer.cs" Line="14" Column="16" />
+      <File FileName="Cafe.Application/Services/Employees/Commands/DeleteEmployee/DeleteEmployeeCommandHandler.cs" Line="17" Column="50" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,33 +60,33 @@
           <Node name="Cafe" expanded="True">
             <Node name="Cafe.Api">
               <Node name="Controllers" expanded="True">
-                <Node name="AuthenticationController.cs" selected="True" />
+                <Node name="EmployeesController.cs" selected="True" />
               </Node>
             </Node>
             <Node name="Cafe.Application">
-              <Node name="Services" expanded="True">
-                <Node name="Authentication" expanded="True">
-                  <Node name="Commands" expanded="True">
-                    <Node name="ChangePassword" expanded="True" />
-                    <Node name="CreateUser" expanded="True" />
-                    <Node name="DeleteUser" expanded="True" />
-                    <Node name="Login" expanded="True" />
+              <Node name="Core" expanded="True">
+                <Node name="Behavior" expanded="True" />
+              </Node>
+              <Node name="Services">
+                <Node name="Employees" expanded="True">
+                  <Node name="Query" expanded="True">
+                    <Node name="Employees" expanded="True" />
                   </Node>
-                  <Node name="Query" expanded="True" />
                 </Node>
               </Node>
+            </Node>
+            <Node name="Cafe.Domain">
+              <Node name="Features" expanded="True">
+                <Node name="Employees" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Cafe.Infrastructure">
+              <Node name="Repositories" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/aymanomara/new_cafe/Cafe/Cafe.Api/Controllers/AuthenticationController.cs" relfile="Cafe.Api/Controllers/AuthenticationController.cs" line="64" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Cafe.Api PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
 </Properties>

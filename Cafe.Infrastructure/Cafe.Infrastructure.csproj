@@ -23,12 +23,14 @@
     <None Remove="Common\Authentication\" />
     <None Remove="Configuration\" />
     <None Remove="Repositories\" />
+    <None Remove="Configuration\EntityTypeConfiguration\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Common\" />
     <Folder Include="Common\Authentication\" />
     <Folder Include="Configuration\" />
     <Folder Include="Repositories\" />
+    <Folder Include="Configuration\EntityTypeConfiguration\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Cafe.Domain\Cafe.Domain.csproj" />

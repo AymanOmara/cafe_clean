@@ -1,4 +1,5 @@
 ﻿using Cafe.Contracts.Features.Authentication;
+using Cafe.Contracts.Features.Employee;
 
 namespace Cafe.Contracts.Core
 {
@@ -6,6 +7,8 @@ namespace Cafe.Contracts.Core
     {
         public IAuthenticationRepository Authentication { get; }
 
+        public IEmployeeRepository Employees { get; }
+        
         Task SaveChangesAsync();
     }
 }

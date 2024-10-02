@@ -5,7 +5,6 @@ using Cafe.Application.Services.Authentication.Commands.CreateUser;
 using Cafe.Application.Services.Authentication.Commands.DeleteUser;
 using Cafe.Application.Services.Authentication.Commands.Login;
 using Cafe.Application.Services.Authentication.Commands.RefreshToken;
-using Cafe.Application.Services.Authentication.Query;
 using Cafe.Application.Services.Authentication.Response;
 using Cafe.Contracts.Features.Authentication;
 using MediatR;
@@ -42,7 +41,7 @@ namespace Cafe.Api.Controllers
             return result.ToResult();
         }
 
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         [HttpPost("create-user")]
         public async Task<IActionResult> CreateUser([FromBody] CreateUserCommand command)
         {

@@ -1,6 +1,4 @@
-﻿using System;
-namespace Cafe.Application.Services.Authentication.Query
+﻿namespace Cafe.Application.Services.Authentication.Commands.ChangePassword
 {
     public record ChangePasswordRequest(string CurrentPassword, string NewPassword);
 }
-
